@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+    color: #bfbfbf;
+}
+
+img {
+  width: 200px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #dfdfdf;
+  background-image: url("../img/back.jpg");
+  background-size:     cover; 
+  background-repeat:   no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 300px;
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 5px 40px -20px rgba(0, 0, 0, .8)
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#nikeLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid #0683D7;
+  margin-right: 10px;
+}
+
+#nike {
+    color: #0683D7;
+}
+
+
+#shoe {
+  width: 300px;
+}
+
+#description {
+  padding: 10px;
+}
+
+.subhead {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.faded {
+  opacity: 0.7;
+}
+
+#description {
+  margin-top: 10px;
+}
+
+#retail {
+  width: 80%;
+  display: inline-block; 
+}
+
+#time {
+  font-size: 14px;
+  color:#0683D7;
+}
+
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' .5,
+  'wght' 25,
+  'GRAD' 700,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+    color:#0683D7;
+    margin-right: 10px;
+  }
+
+
+#location {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#location img{
+  margin-right: 5px;
+  width: 20px;
+}
+
+
+
+
+
+
+#tags {
+  padding: 10px;
+}
+
+#tags ul {
+  list-style:none;
+}
+
+li {
+  display:inline-block;
+  padding: 10px;
+  background: rgba(6,131,215,.15);
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #0683D7;
+}
+
+footer {
+  padding: 10px;
+  background: #212121;
+}
+
+footer p:first-child {
+  font-weight: bold;
+  margin: 10px 0;
+  opacity: .7;
+}
+
+footer p.faded{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+
+#container1 {
+    display: inline-block;
+    width:25%;
+    margin:25px;
+}
+
+#container2 {
+    display: inline-block;
+    width:25%;
+    margin:25px;
+
+}
+
+#container3 {
+    display: inline-block;
+    width:25%;
+    margin:25px;
+
+}
